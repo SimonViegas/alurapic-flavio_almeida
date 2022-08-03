@@ -4,8 +4,6 @@ import { AppComponent } from "./app.component";
 import { PhotosModule } from "./photos/photos.module";
 import { HttpClientModule } from "@angular/common/http";
 
-//import { PhotoComponent } from "./photos/photo/photo.component";
-
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, PhotosModule, HttpClientModule],
